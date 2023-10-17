@@ -43,6 +43,10 @@ public class DialogController : MonoBehaviour
             }
             else
             {
+                if(currentDialog.signal)
+                {
+                    currentDialog.signal.Call();
+                }
                 dialogUI.SetActive(false);
             }
         }

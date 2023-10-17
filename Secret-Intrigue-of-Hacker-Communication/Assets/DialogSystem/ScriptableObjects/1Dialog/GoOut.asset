@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _text: Bye
   _nextDialog: {fileID: 0}
-  _signal: {fileID: 0}
+  _signal: {fileID: 11400000, guid: c8719b27e3c790040bc2e09f029cbc09, type: 2}
